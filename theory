@@ -1,0 +1,19 @@
+typescript -- This means that your existing working JavaScript code is also TypeScript code. The main benefit of TypeScript is that it can highlight unexpected behavior in your code, lowering the chance of bugs.
+
+1/ types --(primitives , reference)
+Basic Types - 
+Number ,String , Boolean , Arrays , Tuples , Any  , Unknown , Never , Vold , Enums
+
+
+
+** when we will assign value of a variable immidietly we don't need to mention the type but if we declare a variable and don't give the value we need to add type .
+example ---
+let name : string = "John"; no need but we can do it still.
+var a : string / number / [] etc;
+var b = 10 ; // here we don't need to mention the type because we are assigning
+
+
+
+=> tuples - 
+let arr : []  this one is to define the array type
+let arr : [string , number , boolear ] this one is tuples here the elements has to follow the orders and the type acccording to what mentions 
